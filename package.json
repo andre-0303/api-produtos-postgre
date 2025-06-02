@@ -2,10 +2,10 @@
   "name": "api-zgeek",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/andre-0303/api-produtos-postgre/issues"
   },
